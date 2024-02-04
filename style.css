@@ -285,29 +285,29 @@ span{
 }
 .projects-info h4{
   font-size: 3rem;
-  color: white;
+  color: black;
   font-weight: 800;
 }
 .projects-info p{
   font-size: 1.6rem;
   margin: 0.3rem 0 1rem;
   font-weight: 600;
-  color: rgb(147, 230, 202);
+  color: black;
 }
 .projects-info a{
-  color: rgb(4, 121, 82);
+  color: black;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 5rem;
   height: 5rem;
-  background: white;
+  background: whitesmoke;
   border: 2px solid var(--main-color);
   border-radius: 50%;
 }
 .projects-info a i{
   font-size: 3rem;
-  color: rgb(9, 158, 109);
+  color: black;
 }
 .projects-box i{
   font-size: 7rem;
@@ -383,6 +383,10 @@ span{
 .bar .progress-line.css span{
   width: 95%;
   background-color: blue;
+}
+.bar .progress-line.java span{
+  width: 80%;
+  background-color: navajowhite;
 }
 .timeline-section{
   min-height: 100vh;
